@@ -1,10 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
 body{
+    font-family: 'Red Hat Text', sans-serif;
     margin:0px 0px 0px 0px;
 }
 #background{
     position:absolute;
-    background: linear-gradient(to bottom right,색깔,색깔,색깔);   
+    background: linear-gradient(to bottom right,rgb(248, 247, 203),rgb(254, 229, 143),rgb(252, 191, 114));   
     width:100%;
     height:100vh;
     padding-left:0px;
+    z-index: -2;
 }
+#circle1{
+    position:absolute;
+    left:56vw;
+    top:58vh;
+    background: linear-gradient(to right bottom, rgb(253, 237, 178), rgb(255, 191, 69));
+    width:160px;
+    height:160px;
+    border-radius: 100px;
+}
+#circle2{
+    position:absolute;
+    left:34vw;
+    top:16vh;
+    background: linear-gradient(to left bottom, rgb(253, 243, 182), rgb(253, 223, 130));
+    width:260px;
+    height:260px;
+    border-radius: 150px;
+}
+#login-form{
+    color:#FFAC0A;
+    background-color: rgb(250, 231, 164);
+    width:16vw;
+    height:38vh;
+    position:absolute;
+    flex-direction: column;
+    font-size: 36px;
+    text-align: center;
+    top:28vh;
+    padding-top: 50px;
+    left:42vw;
+    border-radius: 3vw;
+    z-index: 1;
+    box-shadow: 3px 3px 10px rgb(172, 172, 172);
+}
+#login-form > input{
+    width: 11rem;
+    border-radius: 21px;
+    height:42px;
+    border: none;
+    padding-left: 1rem;
+    margin-top: 30px;
+    vertical-align: baseline;
+    box-shadow: 0px 2px 10px -1px rgb(161, 161, 161);
+}
+#submit{
+    width:50px;
+}
+#login-form > input:focus{
+    border: none;
+}
+#login-form > input::placeholder{
+    color:rgb(249, 215, 137);
+}
+#forgot-pw, #forgot-pw:after{
+    position:relative;
+    color:#FFAC0A;
+    text-decoration: none;
+    font-size: 14px;
+    top:20px;
+}
+
