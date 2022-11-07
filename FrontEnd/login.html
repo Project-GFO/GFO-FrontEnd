@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +11,14 @@
     <div id="background"></div>
     <div class="circle" id="circle2"></div>
     <div class="circle" id="circle1"></div>
-    <div id="login-form">
+    <form id="login-form">
         welcome<br>
-        <input id="id" type="text"placeholder="Username"><br>
-        <input id="password" type="password" placeholder="Password"><br>
-        <input id="submit" type="submit" value="Sign in"><br>
-        <a href="#" id="forgot-pw">Forgot Password ?</a>
-    </div>
+        <input required class="input" id="id" type="text"placeholder="Username"><br>
+        <input required class="input" id="password" type="password" placeholder="Password"><br>
+        <input id="submit" type="submit" value="Sign in" /><br>
+        <a href="#" id="forgot-pw">Forgot Password ?</a><br>
+        <a href="signin.html" id="forgot-pw">Don't have an account?</a>
+    </form>
 </body>
+<script src="login.js"></script>
 </html>
