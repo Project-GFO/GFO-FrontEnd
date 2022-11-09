@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Roboto';
+    margin:0px 0px 0px 0px;
+    width:100%;
+}
+#background{
+    background-color: #D9D9D9;
+    position:absolute;
+    width:100vw;
+    height:100%;
+    padding-left:0px;
+    z-index: -2;
+}
+#page{
+    position: absolute;
+    width:85.9375vw;
+    height: 77.7777vh;
+    top:11.1111vh;
+    background-color: white;
+    margin-left:7.03125vw;
+}
+#login-form{
+    padding-top:0px;
+    width:54.6875vw;
+    text-align: center;
+}
+#sub{
+    position: relative;
+    margin-top:20.0925vh;
+    margin-bottom: 6.6666vh;
+    font-size: 60px;
+    color:#8A9DE1;
+}
+.input{
+    width:26.041vw;
+    height:7.5926vh;
+    background: #E8EBF2;
+    border:none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+#id{
+    margin-top:4vh;
+    background-position-y: 6px;
+    background-image: url("자물쇠.png");
+    background-repeat: no-repeat;
+    text-indent: 3vw;
+}
+#password{
+    margin-top:4vh;
+    background-position-y: 6px;
+    background-image: url("자물쇠.png");
+    background-repeat: no-repeat;
+    text-indent: 3vw;
+}
+
+#forgot-pw{
+    display: block;
+    text-decoration: none;
+    color:#8A9DE1;
+    padding-top: 3.4259vh;
+}
+
+.box{
+    float: left;
+}
+#change-form{
+    text-align: center;
+    width:31.25vw;
+    height:inherit;
+    background: linear-gradient(204.93deg, #C8E1F3 0%, #96AEDC 100%);
+}
+
+#change-sub{
+    margin-top:20vh;
+    font-size: 45px;
+    font-family: 'Roboto';
+    color:#FFFFFF;
+    font-weight: 700;
+}
+
+#form-change-button{
+    box-sizing: border-box;
+
+    width: 14.5833vw;
+    height: 8.3333vh;
+    left: 1354px;
+    
+    border: 3px solid #FFFFFF;
+    border-radius: 60px;
+
+    
+}
