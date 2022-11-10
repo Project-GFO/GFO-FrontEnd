@@ -9,21 +9,32 @@
 </head>
 <body>
     <div id="background"></div>
-    <div id="page">
-    <form class="box" id="login-form">
-        <h2 id="sub">Login to GFO</h1><br>
-        <input required class="input" id="id" type="text"placeholder="Username"><br>
-        <input required class="input" id="password" type="password" placeholder="Password"><br>
-        <!-- <input id="submit" type="submit" value="Sign in" /><br> -->
-        <a href="#" id="forgot-pw">Forgot Password?</a><br>
-    </form>
-    <div class="box" id="change-form">
-        <div id="change-sub">Welcome to GFO</div>
-        <div>Enter your personal details and<br>
-            start journey with us</div>
-        <button type="button" id="form-change-button">Sign up</button>
+        <div id="page"> 
+            <form class="box" id="login-form">
+                <h2 id="login-sub">Login to GFO</h1><br>
+                <input required class="input" id="id" type="text" placeholder="Email"><br>
+                <input required class="input" id="password" type="password" placeholder="Password"><br>
+                <input id="submit" type="submit" value="Sign in"/><br>
+                <a href="#" id="forgot-pw">Forgot Password?</a><br>
+            </form>
+            <form class="box" id="signup-form">
+                <h2 id="signup-sub">Create Account</h1><br>
+                <input required class="input" id="name" type="text" placeholder="Name"><br>
+                <input required class="input" id="email" type="text" placeholder="Email"><br>
+                <input required class="input" id="password" type="password" placeholder="Password"><br>
+                <input required class="input" id="password" type="password" placeholder="Repeat Password"><br>
+                <input id="submit" type="submit" value="Sign in" /><br>
+                <a href="#" id="forgot-pw">Forgot Password?</a><br>
+            </form>
+        <div class="box" id="change-form">
+            <div id="change-sub">Welcome to GFO</div>
+            <div id="change-content">Enter your personal details and<br>
+                start journey with us</div>
+            <button type="button" id="form-change-button">Sign up</button>
+        </div>
     </div>
-    </div>
+    <div class="circle"></div>
+    <div id="polygon"></div>
 </body>
-<script src="login.js"></script>
+<script src="LogInPage.js"></script>
 </html>

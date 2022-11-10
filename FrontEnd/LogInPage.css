@@ -24,30 +24,65 @@ body{
     padding-top:0px;
     width:54.6875vw;
     text-align: center;
+    animation-name: disappear;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
-#sub{
+#login-sub{
     position: relative;
     margin-top:20.0925vh;
     margin-bottom: 6.6666vh;
     font-size: 60px;
     color:#8A9DE1;
 }
+#signup-form{
+    text-align: center;
+    margin-left:31.25vw;
+    position:absolute;
+    width:54.6875vw;
+    animation-name: appear;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+}
+#signup-sub{
+    position: relative;
+    margin-top:5vh;
+    margin-bottom: 0vh;
+    font-size: 60px;
+    color:#8A9DE1;
+}
 .input{
+    font-family: 'Roboto';
     width:26.041vw;
     height:7.5926vh;
     background: #E8EBF2;
     border:none;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 17px;
     line-height: 28px;
+    text-indent: 1vw;
 }
-#id{
+#name{
     margin-top:4vh;
     background-position-y: 6px;
-    background-image: url("자물쇠.png");
+    background-image: url("email.png");
     background-repeat: no-repeat;
     text-indent: 3vw;
+}
+#email{
+    margin-top:4vh;
+    background-position-y: 6px;
+    background-image: url("email.png");
+    background-repeat: no-repeat;
+    text-indent: 3vw;
+}
+button:active {
+    transform: scale(0.95);
 }
 #password{
     margin-top:4vh;
@@ -66,12 +101,20 @@ body{
 
 .box{
     float: left;
+    height: inherit;
 }
 #change-form{
+    position:absolute;
     text-align: center;
     width:31.25vw;
     height:inherit;
-    background: linear-gradient(204.93deg, #C8E1F3 0%, #96AEDC 100%);
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-timing-function: ease-out;
 }
 
 #change-sub{
@@ -82,15 +125,76 @@ body{
     font-weight: 700;
 }
 
+#change-content{
+    margin-top:38px;
+    color:white;
+    font-size: 18px;
+}
+
 #form-change-button{
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top:64px;
+    background: none;
+    color:white;
     box-sizing: border-box;
 
     width: 14.5833vw;
     height: 8.3333vh;
     left: 1354px;
     
-    border: 3px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     border-radius: 60px;
 
-    
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+.circle{
+    position:fixed;
+    width: 610px;
+    height: 630px;
+    left: -140px;
+    top: 586px;
+    z-index: -1;
+    border-radius: 500px;
+    background-color: #E1AE9D;
+}
+@keyframes disappear{
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes move{
+    from{
+        right:0vw;
+    }
+    to{
+        right:54.6875vw;
+    }
+}
+#polygon{
+    position: fixed;
+    width: 927px;
+    height: 870px;
+    left: 70vw;
+    top: 0px;
+    background-image:url("Polygon\ 3.png");
+    background-repeat: no-repeat;
+    z-index: -1;
 }
