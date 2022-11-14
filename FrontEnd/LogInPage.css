@@ -5,7 +5,7 @@ body{
     width:100%;
 }
 #background{
-    background-color: #D9D9D9;
+    background-color: #F0F3FC;
     position:absolute;
     width:100vw;
     height:100%;
@@ -14,11 +14,11 @@ body{
 }
 #page{
     position: absolute;
-    width:85.9375vw;
+    width:80.9375vw;
     height: 77.7777vh;
     top:11.1111vh;
     background-color: white;
-    margin-left:7.03125vw;
+    margin-left:9.53125vw;
 }
 #login-form{
     padding-top:0px;
@@ -28,12 +28,14 @@ body{
     animation-duration: 1s;
     animation-play-state: paused;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
 }
 #login-sub{
     position: relative;
     margin-top:20.0925vh;
-    margin-bottom: 6.6666vh;
-    font-size: 60px;
+    margin-bottom: 1.6666vh;
+    font-size: 48px;
     color:#8A9DE1;
 }
 #signup-form{
@@ -46,13 +48,15 @@ body{
     animation-duration: 1s;
     animation-play-state: paused;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
     opacity: 0%;
 }
 #signup-sub{
     position: relative;
     margin-top:5vh;
     margin-bottom: 0vh;
-    font-size: 60px;
+    font-size: 59px;
     color:#8A9DE1;
 }
 .input{
@@ -72,14 +76,14 @@ body{
     background-position-y: 6px;
     background-image: url("email.png");
     background-repeat: no-repeat;
-    text-indent: 3vw;
+    text-indent: 3.5vw;
 }
 #email{
     margin-top:4vh;
     background-position-y: 6px;
     background-image: url("email.png");
     background-repeat: no-repeat;
-    text-indent: 3vw;
+    text-indent: 3.5vw;
 }
 button:active {
     transform: scale(0.95);
@@ -89,14 +93,14 @@ button:active {
     background-position-y: 6px;
     background-image: url("자물쇠.png");
     background-repeat: no-repeat;
-    text-indent: 3vw;
+    text-indent: 3.5vw;
 }
 
 #forgot-pw{
     display: block;
     text-decoration: none;
     color:#8A9DE1;
-    padding-top: 3.4259vh;
+    padding-top: 1.4259vh;
 }
 
 .box{
@@ -106,7 +110,7 @@ button:active {
 #change-form{
     position:absolute;
     text-align: center;
-    width:31.25vw;
+    width:26.25vw;
     height:inherit;
     background-image: url("background.png");
     background-size: cover;
@@ -115,6 +119,8 @@ button:active {
     animation-duration: 2s;
     animation-play-state: paused;
     animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 #change-sub{
@@ -161,10 +167,11 @@ button:active {
     z-index: -1;
     border-radius: 500px;
     background-color: #E1AE9D;
+    display: none;
 }
 @keyframes disappear{
     from{
-        opacity: 100%;
+        opacity: 100%;  
     }
     to{
         opacity: 0%;
@@ -172,19 +179,19 @@ button:active {
 }
 
 @keyframes appear{
-    from{
+    tox{
         opacity: 0%;
     }
-    to{
+    from{
         opacity: 100%;
     }
 }
 
 @keyframes move{
-    from{
+    0%{
         right:0vw;
     }
-    to{
+    100%{
         right:54.6875vw;
     }
 }
@@ -192,9 +199,27 @@ button:active {
     position: fixed;
     width: 927px;
     height: 870px;
-    left: 70vw;
+    right:-30%;
     top: 0px;
     background-image:url("Polygon\ 3.png");
     background-repeat: no-repeat;
     z-index: -1;
+    display:none;
+}
+
+.submit{
+    background-color: #A3B8E4;
+    color:white;
+    border:none;
+    width: 15vw;
+    height: 74px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+#SignIn{
+    margin-top: 5vh;
+}
+#Log-in{
+    position:inherit;
 }
