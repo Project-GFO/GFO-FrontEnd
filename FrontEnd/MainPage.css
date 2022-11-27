@@ -49,7 +49,7 @@ body{
     position: relative;
     font-size: 12px;
     font-weight: bold;
-    margin-left: 6%;
+    margin-left: 4%;
     margin-top: 175px;
 }
 
@@ -61,7 +61,7 @@ position: relative;
 color:white;
 width: 130px;
 height: 45px;
-left: 85px;
+left: 60px;
 background: #6378E6;
 border-radius: 25px;
 }
@@ -69,38 +69,40 @@ border-radius: 25px;
 #side-img1{
     background-image: url("Circle.png");
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     background-size: cover;
-    z-index: 2;
-    margin-left: 750px;
-    margin-top: -400px;
+    z-index: 1;
+    margin-left: 800px;
+    margin-top: -450px;
 }
 
 #side-img2{
     position: relative;
     background-image: url("main.png");
-    z-index: 1;
-    width: 300px;
-    height: 230px;
-    margin-top: -450px;
-    margin-left: 600px;
+    z-index: 2;
+    background-size: cover;
+    width: 230px;
+    height: 180px;
+    margin-top: -530px;
+    margin-left: 670px;
 }
 
 #side-img3{
     position: relative;
     background-image: url("main 2.png");
-    z-index: 1;
-    width: 260px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 600px;
+    z-index: 2;
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    margin-top: 140px;
+    margin-left: 720px;
 }
 
 #logo-text{
     position: relative;
     top:160px;
-    left:50px;
+    left:58px;
     background-image: url("TOT.png");
     width:295px;
     height: 260px;
@@ -114,7 +116,7 @@ border-radius: 25px;
     height: 35px;
     background: #000000;
     margin-top: -30px;
-    left:550px;
+    left: 610px;
     border-radius: 10px;
     color: white;
     z-index: 2;
