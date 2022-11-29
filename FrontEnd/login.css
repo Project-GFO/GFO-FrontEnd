@@ -1,19 +1,21 @@
 body{
     margin:0px 0px 0px 0px;
-    width:100%;
+    width:100vw;
+    height: 100vh;
  }
 
  #page1{
     position: absolute;
     background-color: #657AC3;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
+    left:0px;
  }
 
  #page2{
     position: absolute;
     background-color: #7C8FD0;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
     left:760px;
  }
