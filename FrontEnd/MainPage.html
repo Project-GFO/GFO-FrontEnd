@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GFO, 우리들의 커뮤니티</title>
     <link rel="stylesheet" href="MainPage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
    <article class="container">
@@ -14,11 +15,15 @@
             <div class="header-item" id="GFO"><b>GFO</b></div>
             <div class="header-item" id="devide-line"></div>
             <div class="header-item" id="home">홈</div>
-            <div class="header-item" id="ask">지식인</div>
+            <div class="header-item" id="ask">지식인
+                <div id="ask-tab" class="hidden-tab">
+                    <a id="qna" href="#">Q&A</a><br>
+                    <a id="awns" href="#">답변하기</a>
+                </div>
+            </div>
             <div class="header-item" id="img"><img src="msg img.png" alt="My img"></div>
             <div class="header-item" id="Mypage">마이페이지</div>
-            <div class="header-item" id="img"><img src="msg img.png" alt="My img"></div>
-            <div class="header-item"><a href="#"><button type="button" id="login-button">로그인</button></a></div>
+            <div class="header-item"><a href="LogInPage.html"><button type="button" id="login-button">로그인</button></a></div>
         </div>
        <div id="logo-text"></div>
         <div id="sub-text">
@@ -37,4 +42,5 @@
     </div>
    </article>
 </body>
+<script src="MainPage.js"></script>
 </html>

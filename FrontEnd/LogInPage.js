@@ -37,7 +37,7 @@ function running(){
     changeForm.style.animationPlayState = "running";
     loginForm.style.animationPlayState = "running";
     signupForm.style.animationPlayState = "running";
-    setTimeout(() => {changeForm.style.animationPlayState = "paused"}, 2000);
+    setTimeout(() => {changeForm.style.animationPlayState = "paused"}, 1500);
     setTimeout(() => {
         loginForm.style.animationPlayState = "paused";
         signupForm.style.animationPlayState = "paused";
@@ -59,7 +59,21 @@ function textChange(){
 const changedText = ["Welcome back!", "To keep connected with us please<br/> login with your profile info", "Login"];
 const originText = ['Welcome to GFO', 'Enter your personal details and<br>start journey with us', 'Sign up'];
 
-set(()=>{
-    loginForm.style.visibility = "visible";
-    signupForm.style.visibility = "hidden";
-});
+
+
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+
+
+function Login(event){
+    event.preventDefault();
+    if(email.value == ""){
+        alert("안돼요");
+    }else if(password.value == ""){
+        alert("그것도 안돼요~");
+    }
+}
+
+loginSubmit = document.getElementById("Log-in");
+
+loginSubmit.addEventListener("submit", Login);
