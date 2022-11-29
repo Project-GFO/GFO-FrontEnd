@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFO, 우리들의 커뮤니티</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="page1">
+        <div id="inside-position">
+            <div id="photo-background"></div>
+            <div id="photo-text1">GSM에게 열린 포럼, GFO<br>
+                지금 당장 질문하러<br>
+                가볼까요?</div>
+            </div>
+            <div id="photo"></div>
+    </div>
+    <div id="page2">
+        <div id="main">
+            <form class="box" id="Welcome" onsubmit="login(event)">
+                <h1 id="Welcome-back">Welcome Back!</h1>
+                <input class="input" id="email" type="id" placeholder="이메일을 입력해주세요."><br>
+                <div id="rewrite-email">이메일을 다시 입력해주세요.</div>
+                <input class="input" id="password" type="password" placeholder="비밀번호를 입력해주세요.">
+                <div id="rewrite-password">비밀번호를 다시 입력해주세요.</div>
+                <div>
+                    <input type="submit" id="login-button" value="로그인">
+                </div>
+                <span id="forgot"><b>비밀번호를 잊으셨나요?</b></span>
+                <a href="forgotpassword.html" id="find">비밀번호 찾기</a>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    margin:0px 0px 0px 0px;
+    width:100vw;
+    height: 100vh;
+ }
+
+ #page1{
+    position: absolute;
+    background-color: #657AC3;
+    width: 50vw;
+    height: 100vh;
+    left:0px;
+ }
+
+ #page2{
+    position: absolute;
+    background-color: #7C8FD0;
+    width: 50vw;
+    height: 100vh;
+    left:50vw;
+ }
+
+#inside-position{
+   position: absolute;
+   top:80px;
+   left: 20vw;
+}
+
+ #photo-background{
+    background-color:  #7C8FD0;
+    position: absolute;
+    width: 45vw;
+    height: 80vh;
+ }
+
+ #photo-text1{
+    position: relative;
+    left:3vw;
+    color:#FFFFFF;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    top:14vh;
+    line-height: 70px;
+ }
+
+ #photo{
+    position: relative;
+    background-image: url("photo-img.png");
+    background-size: cover;
+    max-width: 27vw;
+    height: 45vh;
+    top:38vh;
+    left: 23vw;
+ }
+
+ #main{
+   background-color: #FFFFFF;
+   position: relative;
+   width: 600px;
+   height: 80vh;
+   top:40px;
+ }
+ h1{
+   position: relative;
+   color:#78A2E5;
+   font-family: 'Roboto', sans-serif;
+   font-size: 60px;
+   top:130px;
+   text-align: center;
+ }
+
+ #email{
+   position: relative;
+   width: 300px;
+   height: 45px;
+   border: 2px solid #999999;
+   padding-left: 15px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   margin-top:220px;
+   left: 140px;
+ }
+
+ #password{
+    position: relative;
+    width: 300px;
+    height: 45px;
+    border: 2px solid #999999;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 18px;
+    left: 140px;
+ }
+
+ #login-button{
+    position: relative;
+    width: 320px;
+    height: 40px;
+    background-color: #7C8FD0;
+    border: none;
+    color:#FFFFFF;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    left:138px;
+    margin-top: 28px;
+}
+
+#forgot{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    left:200px;
+}
+
+#find{
+    position: relative;
+    color:#5B9CE8;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    left:210px;
+}
+
+#rewrite-email{
+   position: relative;
+   font-size: 12px;
+   left:140px;
+   color:#FF3120;
+   font-family: 'Roboto', sans-serif;
+   visibility: hidden;
+}
+
+#rewrite-password{
+   position: relative;
+   font-size: 12px;
+   left:140px;
+   color: #FF3120;
+   font-family: 'Roboto', sans-serif;
+   visibility: hidden;
+}
+
+#email:focus, #password:focus{
+   outline: none;
+}
