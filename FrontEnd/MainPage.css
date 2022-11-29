@@ -151,17 +151,21 @@ border-radius: 25px;
 }
 
 #ask-tab{
-    top:10px;
+    top:60px;
     font-family: 'Roboto';
-    position: relative;
+    position: absolute;
     background-color: #e4e4e4a2;
     width: 116px;
     height:80px;
-    left:-41px;
+    left:250px;
     padding-left: 16px;
     font-size: 14px;
     color:#000000;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#qna:hover, #awns:hover{
+    color:#6378E6;
 }
 
 .hidden-tab{

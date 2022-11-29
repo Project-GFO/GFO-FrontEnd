@@ -9,6 +9,6 @@ $(askTab).ready(function ()
     $(ask).hover(function(){
         $(askTab).attr('class',openTab);
     }, function() {
-        $(askTab).attr('color',hideTab);
+        $(askTab).attr('class',hideTab);
     });
 });
