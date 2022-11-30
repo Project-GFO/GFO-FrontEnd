@@ -48,7 +48,7 @@ body{
 
  #photo{
     position: relative;
-    background-image: url("photo-img.png");
+    background-image: url("image/photo-img.png");
     background-size: cover;
     max-width: 27vw;
     height: 45vh;

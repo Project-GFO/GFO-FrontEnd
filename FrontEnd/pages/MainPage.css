@@ -31,23 +31,26 @@ body{
     font-family: 'Roboto';
     float:left;
     font-size: 14px;
-    margin-left: 3vw;
+    margin-left: 1vw;
 }
 
 .header-item{
+    position: relative;
     float:left;
-    margin-left: 4vw;
+    margin-left: 3vw;
     font-size: 15px;
-    margin-top: 3.1vh;
+    top: -4vh;
+    left:0vw;
     z-index: 2;
 }
 
 #GFO{
     font-size: 22px;
+    left: 0.5vw;
 }
 
 #devide-line{
-    margin-top: 3.6vh;
+    margin-top: 0.5vh;
     width:0.1vw;
     height:2.2vh;
     background-color: rgba(214, 214, 214, 1);
@@ -74,56 +77,78 @@ border-radius: 1.3vw;
 }
 
 #side-img1{
-    background-image: url("Circle.png");
+    background-image: url("image/Circle.png");
     position: relative;
     width: 34vw;
     height: 68vh;
     background-size: cover;
     z-index: 1;
-    margin-left: 46vw;
+    margin-left: 50vw;
     margin-top: -55vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #side-img2{
     position: relative;
-    background-image: url("main.png");
+    background-image: url("image/main.png");
     z-index: 2;
     background-size: cover;
     width: 14vw;
     height: 19.6vh;
     margin-top: -64.7vh;
-    margin-left: 36.9vw;
+    margin-left: 40.9vw;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #side-img3{
     position: relative;
-    background-image: url("main 2.png");
+    background-image: url("image/main\ 2.png");
     z-index: 2;
     background-size: cover;
     width: 13vw;
     height: 16.5vh;
     margin-top: 19.4vh;
-    margin-left: 39.5vw;
+    margin-left: 43.5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#search{
+    position: relative;
+    width: 22vw;
+    height: 5vh;
+    background-color: rgba(226, 226, 226, 0.5);
+    border-radius: 1vw;
+    border: none;
+    z-index: 2;
+    top: -5vh;
+    left: -7vw;
+    padding-left: 1vw;
+    border:none;
 }
 
 #logo-text{
     position: relative;
     top:20vh;
     left:3vw;
-    background-image: url("text-img.png");
+    background-image: url("image/text-img.png");
     width:20vw;
     height: 33vh;
     background-size: cover;
     z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #login-button{
     position: relative;
-    width: 6.8vw;
+    width: 7vw;
     height: 4vh;
     background: #000000;
     margin-top: -3.1vh;
-    left: 40vw;
+    left: 51vw;
     border-radius: 0.5vw;
     color: white;
     z-index: 2;
@@ -141,9 +166,9 @@ border-radius: 1.3vw;
 
 #side{
     position: absolute;
-    width: 42.5vw;
+    width: 35vw;
     height: 88vh;
-    left: 50vw;
+    left: 56.3vw;
     top: 0vh;
     background: #C3D1FC;
     border-radius: 0px 1vw 1vw 0px;
@@ -183,4 +208,27 @@ border-radius: 1.3vw;
 #awns{
     position: relative;
     top: 22px;
+}
+
+#GFO-logo{
+    position: relative;
+    background-image: url("image/GFO-logo.png");
+    background-size: cover;
+    width:2vw;
+    height: 5.5vh;
+    top:1.2vh;
+    left: 1.3vw;
+    background-repeat: no-repeat;
+}
+
+#glass{
+    position: relative;
+    background-image: url("image/glass.png");
+    background-size: cover;
+    width: 1vw;
+    height: 2vh;
+    z-index: 2;
+    top:-1.5vh;
+    left: 51vw;
+    background-repeat: no-repeat;
 }
