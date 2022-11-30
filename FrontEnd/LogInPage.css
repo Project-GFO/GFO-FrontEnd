@@ -74,14 +74,14 @@ body{
 #name{
     margin-top:4vh;
     background-position-y: 6px;
-    background-image: url("email.png");
+    background-image: url("../FrontEnd/image/email.png");
     background-repeat: no-repeat;
     text-indent: 3.5vw;
 }
 #email{
     margin-top:4vh;
     background-position-y: 6px;
-    background-image: url("email.png");
+    background-image: url("../FrontEnd/image/email.png");
     background-repeat: no-repeat;
     text-indent: 3.5vw;
 }
@@ -91,7 +91,7 @@ button:active {
 #password{
     margin-top:4vh;
     background-position-y: 6px;
-    background-image: url("자물쇠.png");
+    background-image: url("../FrontEnd/image/자물쇠.png");
     background-repeat: no-repeat;
     text-indent: 3.5vw;
 }
@@ -112,7 +112,7 @@ button:active {
     text-align: center;
     width:26.25vw;
     height:inherit;
-    background-image: url("background.png");
+    background-image: url("../FrontEnd/image/background.png");
     background-size: cover;
     background-repeat:no-repeat;
     animation-name: move;
@@ -201,7 +201,7 @@ button:active {
     height: 870px;
     right:-30%;
     top: 0px;
-    background-image:url("Polygon\ 3.png");
+    background-image:url("../FrontEnd/image/Polygon\ 3.png");
     background-repeat: no-repeat;
     z-index: -1;
     display:none;

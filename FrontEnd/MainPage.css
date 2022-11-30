@@ -64,7 +64,7 @@ border-radius: 1.3vw;
 }
 
 #side-img1{
-    background-image: url("Circle.png");
+    background-image: url("../FrontEnd/image/Circle.png");
     position: relative;
     width: 34vw;
     height: 68vh;
@@ -78,7 +78,7 @@ border-radius: 1.3vw;
 
 #side-img2{
     position: relative;
-    background-image: url("main.png");
+    background-image: url("../FrontEnd/image/main.png");
     z-index: 2;
     background-size: cover;
     width: 14vw;
@@ -91,7 +91,7 @@ border-radius: 1.3vw;
 
 #side-img3{
     position: relative;
-    background-image: url("main 2.png");
+    background-image: url("../FrontEnd/image/main\ 2.png");
     z-index: 2;
     background-size: cover;
     width: 13vw;
@@ -120,7 +120,7 @@ border-radius: 1.3vw;
     position: relative;
     top:20vh;
     left:3vw;
-    background-image: url("text-img.png");
+    background-image: url("../FrontEnd/image/text-img.png");
     width:20vw;
     height: 33vh;
     background-size: cover;
@@ -164,7 +164,7 @@ border-radius: 1.3vw;
 
 #GFO-logo{
     position: relative;
-    background-image: url("GFO-logo.png");
+    background-image: url("../FrontEnd/image/GFO-logo.png");
     background-size: cover;
     width:2vw;
     height: 5.5vh;
@@ -175,7 +175,7 @@ border-radius: 1.3vw;
 
 #glass{
     position: relative;
-    background-image: url("glass.png");
+    background-image: url("../FrontEnd/image/glass.png");
     background-size: cover;
     width: 1vw;
     height: 2vh;
