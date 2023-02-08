@@ -16,8 +16,8 @@ body {
 #login-img {
   background-image: url("../pages/img/Login.svg");
   background-size: cover;
-  width: 4.5vw;
-  height: 9.2vh;
+  width: 80px;
+  height: 80px;
   margin-left: 7em;
 }
 

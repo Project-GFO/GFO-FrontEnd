@@ -64,6 +64,26 @@ body {
   font-weight: 400;
 }
 
+#logo-text-tab {
+  margin-top: 170px;
+  margin-left: 140px;
+}
+#logo-text {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#logo-text-sub {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+  margin-top: 50px;
+}
+
+#go-ques {
+  margin-top: 50px;
+}
+
 a,
 a:link {
   text-decoration: none;
@@ -90,7 +110,7 @@ a:link {
   line-height: 70px;
 }
 
-#background-circles {
+.background-circles {
   z-index: 1;
 }
 
@@ -118,10 +138,4 @@ a:link {
   height: 30em;
   left: 70em;
   margin-top: -10em;
-}
-
-.circle:nth-child(4) {
-  width: 487px;
-  height: 487px;
-  margin-top: 00px;
 }
