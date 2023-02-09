@@ -16,8 +16,8 @@ body {
 #login-img {
   background-image: url("../pages/img/Login.svg");
   background-size: cover;
-  width: 4.5vw;
-  height: 9.2vh;
+  width: 80px;
+  height: 80px;
   margin-left: 7em;
 }
 
@@ -55,10 +55,33 @@ body {
   margin-left: 1.5em;
 }
 
-#goto-login {
-  color: #546cc2;
-  margin-left: 5.5em;
-  margin-top: -1em;
-  margin-left: 8em;
+#signup {
+  color: black;
   font-size: 12.5px;
+  margin-top: -0.5em;
+  margin-left: 4.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #33a0dd;
+}
+
+#goto-signup {
+  font-size: 12.5px;
+  margin-top: -2.7em;
+  margin-left: 14em;
+}
+
+#forgotpassword {
+  color: black;
+  font-size: 12.5px;
+  margin-top: 0.3em;
+  margin-left: 3.5em;
+}
+
+#goto-forgotpassword {
+  font-size: 12.5px;
+  margin-top: -2.7em;
+  margin-left: 15em;
 }
