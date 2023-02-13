@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css%22");
 
 body {
-  width: 100vw;
-  height: 100vh;
   font-size: 16px;
   color: #ffffff;
   font-family: "Pretendard";
@@ -16,13 +14,13 @@ body {
   justify-content: center;
 }
 
-.login {
+.signup {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#login-img {
+#signup-img {
   width: 80px;
   height: 80px;
   background-image: url(../pages/img/Login.svg);
@@ -31,7 +29,7 @@ body {
   margin-top: 100px;
 }
 
-#login-text {
+#signup-text {
   color: #6370e5;
   font-size: 44px;
   margin-top: 20px;
@@ -57,7 +55,7 @@ input::placeholder {
   font-display: swap;
 }
 
-#login-button {
+#signup-button {
   background-color: #6370e5;
   color: #ffffff;
   font-size: 18px;
@@ -66,15 +64,15 @@ input::placeholder {
   text-align: center;
   text-indent: 0;
   font-weight: 600;
+  border: none;
+  border-radius: 5px;
 }
 
-.link {
-  color: #000;
-  font-weight: 400;
-  margin-bottom: 0.5em;
+#goto-login {
+  margin-top: 0.5em;
 }
 
 a {
   text-decoration: none;
-  color: #33a0dd;
+  color: #6370e5;
 }
