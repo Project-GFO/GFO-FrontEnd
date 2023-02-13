@@ -1,6 +1,8 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css%22");
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-size: 16px;
   color: #ffffff;
   font-family: "Pretendard";
@@ -8,80 +10,71 @@ body {
   font-display: swap;
 }
 
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
 .login {
-  margin-top: 4.2em;
-  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #login-img {
-  background-image: url("../pages/img/Login.svg");
-  background-size: cover;
   width: 80px;
   height: 80px;
-  margin-left: 7em;
+  background-image: url(../pages/img/Login.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
 
 #login-text {
-  position: absolute;
   color: #6370e5;
-  font-size: 41px;
-  margin-top: 0.5em;
-  margin-left: 2em;
+  font-size: 44px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .input {
-  color: #999999;
-  width: 20em;
-  height: 2.5em;
-  margin: 11px;
-  padding-left: 10px;
-  border-radius: 0.25em;
-  margin-left: 1.5em;
-  border-color: #999999;
+  width: 27em;
+  height: 3em;
+  text-indent: 1em;
+  border-radius: 5px;
+  border: 1.5px solid #999999;
+  margin-bottom: 12px;
 }
 
-#email-button {
-  margin-top: 7em;
+input::placeholder {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  color: #999999;
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
 }
 
 #login-button {
   background-color: #6370e5;
   color: #ffffff;
-  border: none;
-  border-radius: 0.25em;
-  width: 21em;
-  height: 2.8em;
-  margin: 30px;
-  margin-left: 1.5em;
+  font-size: 18px;
+  width: 20.5em;
+  height: 2.5em;
+  text-align: center;
+  text-indent: 0;
+  font-weight: 600;
 }
 
-#signup {
-  color: black;
-  font-size: 12.5px;
-  margin-top: -0.5em;
-  margin-left: 4.5em;
+.link {
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 a {
   text-decoration: none;
   color: #33a0dd;
-}
-
-#goto-signup {
-  font-size: 12.5px;
-  margin-top: -2.7em;
-  margin-left: 14em;
-}
-
-#forgotpassword {
-  color: black;
-  font-size: 12.5px;
-  margin-top: 0.3em;
-  margin-left: 3.5em;
-}
-
-#goto-forgotpassword {
-  font-size: 12.5px;
-  margin-top: -2.7em;
-  margin-left: 15em;
 }

@@ -8,60 +8,71 @@ body {
   font-display: swap;
 }
 
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
 .signup {
-  margin-top: 3.5em;
-  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #signup-img {
-  background-image: url("../pages/img/Login.svg");
-  background-size: cover;
   width: 80px;
   height: 80px;
-  margin-left: 7.2em;
+  background-image: url(../pages/img/Login.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
 
 #signup-text {
-  position: absolute;
   color: #6370e5;
-  font-size: 42px;
-  margin-top: 0.5em;
-  margin-left: 1.8em;
+  font-size: 44px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .input {
-  color: #999999;
-  width: 20em;
-  height: 2.5em;
-  padding-left: 12px;
-  border-radius: 0.25em;
-  margin-left: 1.5em;
-  margin-top: 1.5em;
-  border-color: #999999;
+  width: 27em;
+  height: 3em;
+  text-indent: 1em;
+  border-radius: 5px;
+  border: 1.5px solid #999999;
+  margin-bottom: 12px;
 }
 
-#name-button {
-  margin-top: 6.8em;
+input::placeholder {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  color: #999999;
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
 }
 
 #signup-button {
   background-color: #6370e5;
   color: #ffffff;
+  font-size: 18px;
+  width: 20.5em;
+  height: 2.5em;
+  text-align: center;
+  text-indent: 0;
+  font-weight: 600;
   border: none;
-  border-radius: 0.25em;
-  width: 21em;
-  height: 2.8em;
-  margin: 50px;
-  margin-left: 1.5em;
+  border-radius: 5px;
+}
+
+#goto-login {
+  margin-top: 0.5em;
 }
 
 a {
   text-decoration: none;
-  color: #546cc2;
-  font-size: 12.5px;
-}
-
-#goto-login {
-  margin-top: -2.5em;
-  margin-left: 6.3em;
+  color: #6370e5;
 }

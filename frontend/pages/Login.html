@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/Login.css" />
-    <script src="../codes/Login.js"></script>
     <title>GFO, 우리들의 이야기</title>
   </head>
   <body>
-    <div class="login">
-      <div id="login-img"></div>
-      <h1 id="login-text">LOGIN</h1>
-      <br />
-      <input
-        class="input"
-        id="email-button"
-        type="text"
-        placeholder="이메일을 입력해주세요"
-      /><br />
-      <input
-        class="input"
-        id="password-button"
-        type="password"
-        placeholder="비밀번호를 입력해주세요"
-      /><br />
-      <div>
-        <a href="#"><button type="button" id="login-button">확인</button></a>
-      <h4 id="signup">회원이 아니신가요?</h4>
-      <div id="goto-signup">
-        <a href="../pages/Signup.html">회원가입 하기</a>
+    <div class="container">
+      <div class="login">
+        <div id="login-img"></div>
+        <h1 id="login-text">LOGIN</h1>
+        <input
+          class="input"
+          id="email-input"
+          type="text"
+          placeholder="이메일을 입력해주세요."
+        />
+        <input
+          class="input"
+          id="pw-input"
+          type="password"
+          placeholder="비밀번호를 입력해주세요."
+        /><br />
+        <button type="button" class="input" id="login-button">확인</button>
+        <div class="link" id="signup">
+          회원이 아니신가요?
+          <a href="../pages/Signup.html">회원가입 하기</a>
+        </div>
+        <div class="link" id="signup">
+          비밀번호를 잊으셨나요?
+          <a href="../pages/Forgotpassword.html">비밀번호 찾기</a>
+        </div>
       </div>
-      <h4 id="forgotpassword">비밀번호를 잊으셨나요?</h4>
-      <div id="goto-forgotpassword">
-        <a href="../pages/Forgotpassword.html">비밀번호 찾기</a>
-      </div>
+    </div>
   </body>
+  <script src="../codes/Login.js"></script>
 </html>
