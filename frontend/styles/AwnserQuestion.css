@@ -85,9 +85,39 @@ body {
   height: 220px;
   border-radius: 8px;
   border: 1px solid #000;
-  margin-left: 90px;
   margin-top: 10px;
   font-family: "Pretendard";
   padding-left: 1em;
   padding-top: 20px;
+  padding-right: 1em;
+}
+#image-input {
+  background-image: url(../pages/img/임시사진.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  margin-left: 80px;
+}
+
+#post {
+  width: 1000px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#post-btn {
+  width: 150px;
+  font-size: 20px;
+  height: 2em;
+  border: none;
+  color: #fff;
+  background-color: #6471e6;
+  border-radius: 8px;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  margin-top: 500px;
+  cursor: pointer;
 }
